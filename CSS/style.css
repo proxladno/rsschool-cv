@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  background-color: bisque;
+  font-family: "Exo 2", sans-serif;
+}
+header {
+  background-color: rgb(121, 166, 166);
+  border: 5px;
+  margin-bottom: 5px;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-item {
+  padding: 5px;
+  list-style: none;
+}
+.nav-link {
+  color: black;
+}
+.contacts ul {
+  list-style: none;
+}
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+}
+.Summary p {
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgb(121, 166, 166);
+}
+.table {
+  margin-left: 20px;
+}
+footer {
+  padding: 20px;
+  background-color: rgb(121, 166, 166);
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: flex;
+}
+footer ul li {
+  margin-right: 20px;
+}
+#logo {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
