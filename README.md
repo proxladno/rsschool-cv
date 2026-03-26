@@ -1,1 +1,1 @@
-# rsschool-cv
+https://proxladno.github.io/rsschool-cv/
